@@ -4,11 +4,9 @@ from random import randint
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from models import PotLukker, PotLukkerUserInfo, Potlukk, PotlukkNotification
-from graph_router import graphql_app
-from rest_router import router as rest_router
-from rpc_router import router as rpc_router
-
+from routers.graph_router import graphql_app as graph_router
+from routers.rpc_router import router as rpc_router
+from routers.rest_router import router as rest_router
 
 
 app = FastAPI()
@@ -47,4 +45,4 @@ app.add_middleware(
 
 app.include_router(rest_router)
 app.include_router(rpc_router)
-app.include_router(graphql_app, prefix="/graphql")
+app.include_router(graph_router, prefix="/graphql")
