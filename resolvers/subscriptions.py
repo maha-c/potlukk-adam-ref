@@ -7,7 +7,7 @@ import asyncio
 
 
 
-async def notifcation_subscription(self) -> AsyncGenerator[list[PotlukkNotification],None]:
+async def notifcation_subscription() -> AsyncGenerator[list[PotlukkNotification],None]:
 
     previous_size = len(notification_queue)
 

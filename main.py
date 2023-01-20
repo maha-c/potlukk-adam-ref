@@ -45,4 +45,4 @@ app.add_middleware(
 
 app.include_router(rest_router)
 app.include_router(rpc_router)
-app.include_router(graph_router, prefix="/graphql")
+app.include_router(graph_router, prefix="/graphql") # type: ignore

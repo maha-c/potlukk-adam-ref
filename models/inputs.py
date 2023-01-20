@@ -40,15 +40,15 @@ class PotlukkCreationInput:
     hostId: int
 
 @strawberry.input
-class PotlukkDetailsMergeInput:
+class PotlukkDetailsSwapInput:
     potlukkId: int
-    title: str | None = strawberry.UNSET
-    location: str | None = strawberry.UNSET
-    status: PotlukkStatus | None = strawberry.UNSET
-    description: str | None = strawberry.UNSET
-    isPublic: bool | None = strawberry.UNSET
-    time: int | None = strawberry.UNSET
-    tags: list[str] | None = strawberry.UNSET
+    title: str 
+    location: str 
+    status: PotlukkStatus 
+    description: str 
+    isPublic: bool 
+    time: int 
+    tags: list[str] 
 
 @strawberry.input
 class DishInput:
