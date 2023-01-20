@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T18:41:21.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="3xGaWX0Jlx44zRDOgbpj" version="20.4.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-20T18:46:56.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="wBDYIsL8jyi4auMGh4Vy" version="20.4.1" type="github" pages="5">
   <diagram id="jbmpUPLXk3HzjXKXFXGi" name="Sign-In">
     <mxGraphModel dx="1730" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -237,6 +237,12 @@
         <mxCell id="zSXxZzeWBiw81_5w6ql7-22" value="Settings" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#79BFFD;align=center;" vertex="1" parent="bFcYCHZMm1SMwJSKCkTD-38">
           <mxGeometry x="380" y="10" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="wXVkee7OY8ReUG_H4TO0-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/arrows-set-12/512/exportarrow-128.png;fontColor=#000000;" vertex="1" parent="bFcYCHZMm1SMwJSKCkTD-38">
+          <mxGeometry x="740" y="15" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wXVkee7OY8ReUG_H4TO0-2" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="bFcYCHZMm1SMwJSKCkTD-38">
+          <mxGeometry x="670" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="bFcYCHZMm1SMwJSKCkTD-20" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;strokeColor=#666666;" vertex="1" parent="bFcYCHZMm1SMwJSKCkTD-1">
           <mxGeometry x="270" y="240" width="160" height="220" as="geometry" />
         </mxCell>
@@ -295,6 +301,12 @@
         </mxCell>
         <mxCell id="PRT3chninD_6PX7kSZlZ-17" value="Settings" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#79BFFD;align=center;" vertex="1" parent="PRT3chninD_6PX7kSZlZ-12">
           <mxGeometry x="380" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="omLM8RMq-klBY2oo-r84-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/arrows-set-12/512/exportarrow-128.png;fontColor=#000000;" vertex="1" parent="PRT3chninD_6PX7kSZlZ-12">
+          <mxGeometry x="750" y="15" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omLM8RMq-klBY2oo-r84-2" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="PRT3chninD_6PX7kSZlZ-12">
+          <mxGeometry x="680" y="15" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jd09RG577szwmOrjTOZ0-55" value="--:-- --" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=#666666;mainText=" vertex="1" parent="PRT3chninD_6PX7kSZlZ-1">
           <mxGeometry x="90" y="200" width="80" height="30" as="geometry" />
@@ -541,6 +553,12 @@
         </mxCell>
         <mxCell id="ZKgnicTKS30yu8Tfkj9S-22" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#79BFFD;align=center;" vertex="1" parent="ZKgnicTKS30yu8Tfkj9S-12">
           <mxGeometry x="60" y="10" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2Ohf4wfPstR59Xzywk-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/arrows-set-12/512/exportarrow-128.png;fontColor=#000000;" vertex="1" parent="ZKgnicTKS30yu8Tfkj9S-12">
+          <mxGeometry x="740" y="15" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2Ohf4wfPstR59Xzywk-2" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ZKgnicTKS30yu8Tfkj9S-12">
+          <mxGeometry x="670" y="15" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZKgnicTKS30yu8Tfkj9S-23" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;" vertex="1" parent="ZKgnicTKS30yu8Tfkj9S-1">
           <mxGeometry x="650" y="200" width="150" height="200" as="geometry" />
