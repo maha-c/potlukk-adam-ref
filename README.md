@@ -4,12 +4,23 @@ The application you are building is called Potlukk. It is an application for hos
 - Application Diagrams
 - Technical Requirements
 
+## Due Dates
+- ***2/7***
+  - Signup page and user stories complete
+- ***2/9***
+  - Signin with redirect to home page. No functionality of home page expected
+- ***2/14**
+  - Host Page functionality complete
+- ***2/20**
+  - Due/ Presentations!!!
+- During the week of 2/14 Rory and I will be checking your repos and github projects to make sure you are
 ### Project Expectations
 - All MVP user stories must be complete
 - Each page has been developed using proper BDD principles
   - Tests should be independent and use mocking when appropriate
     - Use nock and react testing library
 - All code is in github
+- Project is tracked and managed with github projects
 - Github actions are used to
   - Test your code
   - Host your code on github pages
@@ -28,10 +39,11 @@ The application you are building is called Potlukk. It is an application for hos
    1. Choose the default options and to install pip
 2. clone this repository
 3. in the directory with the main.py run `pip install -r requirements.txt`
-4. run the application with `uvicorn main:app`
+4. run `pip install "uvicorn[standard]"`
+5. in the directory with the main.py run the application with `uvicorn main:app`
    1. *all data is persisted in memory*
    2. *restarting/stopping the application will erase data*
-5. The applicaiton will run on port `http://localhost:8000`
+6. The applicaiton will run on port `http://localhost:8000`
    1. ***You can access interactable documentation of endpoints at `http://localhost:8000/docs`***
 
 
@@ -44,7 +56,7 @@ The application you are building is called Potlukk. It is an application for hos
 | Lukker  | Update my username and password | I can change my login information if wanted      | Stretch    |
 | Lukker  | Search for potlukks by tags | Find public potlukks I might be interested in        | Stretch    |
 | Lukker  | say I am bringing a dish to the potlukk | other guests do not bring the same thing | MVP     |
-| Lukker  | edir or remvoe the dishes I am brining | keep                                      | MVP     |
+| Lukker  | edir or remvoe the dishes I am brining | guests avoid duplicates                   | MVP     |
 | Host    | Create dishes for people to bring if possible| I can give suggestions to guests    | Stretch     |
 | Host    | Edit the details of my Potlukk | I can keep everything up to dato                  | MVP    |
 | Host    | Create tags for my Potlukk | People can find my public potlukks                    | Stretch    |
@@ -101,6 +113,7 @@ The application you are building is called Potlukk. It is an application for hos
 - Technial Details
   - Use Redux-Thunks for making invite requests then showing the users you have invited
   - Navbar uses react router
+  - clicking logout clears local storage and redirects to signin
 
 ### Host 
 - User Features
