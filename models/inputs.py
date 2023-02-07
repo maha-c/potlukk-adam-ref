@@ -75,7 +75,7 @@ class DishesSwapInput:
 @strawberry.input
 class InvitationSendInput:
     potlukkId: int 
-    pottlukkerId: int
+    potlukkerId: int
 
 @strawberry.input
 class InvitationUpdateInput:

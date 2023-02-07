@@ -13,7 +13,7 @@ The application you are building is called Potlukk. It is an application for hos
   - Host Page functionality complete
 - ***2/20**
   - Due/ Presentations!!!
-- During the week of 2/14 Rory and I will be checking your repos and github projects to make sure you are
+- During the week of 2/14 Rory and I will be checking your repos and github projects to make sure you are on track
 ### Project Expectations
 - All MVP user stories must be complete
 - Each page has been developed using proper BDD principles
@@ -32,7 +32,7 @@ The application you are building is called Potlukk. It is an application for hos
 - **Potlukk**
   - A potluck
 - **Host**
-  - The Lukker who is owns a particular Potlukk
+  - The Lukker who owns a particular Potlukk
 
 ## Set Up
 1. install [python](https://www.python.org/downloads/) 
@@ -40,7 +40,7 @@ The application you are building is called Potlukk. It is an application for hos
 2. clone this repository
 3. in the directory with the main.py run `pip install -r requirements.txt`
 4. run `pip install "uvicorn[standard]"`
-5. in the directory with the main.py run the application with `uvicorn main:app`
+5. in the directory with the main.py run the application with `uvicorn main:app` or `py -m uvicorn main:app --reload`
    1. *all data is persisted in memory*
    2. *restarting/stopping the application will erase data*
 6. The applicaiton will run on port `http://localhost:8000`
@@ -50,17 +50,17 @@ The application you are building is called Potlukk. It is an application for hos
 | As a    | I Want To | So That                                                                |    Priority |
 |---------|-----------|------------------------------------------------------------------------|-------------|
 | Lukker  | Sign In   | I can view my customized home page                                     | MVP |
-| Lukker  | Register for an account            | use the potlukk plaftform                     | MVP    |                  |          
+| Lukker  | Register for an account            | Use the potlukk plaftform                     | MVP    |                  |          
 | Lukker  | Create Potlukks | Host awesome events                                              | MVP |
 | Lukker  | Add my allergies | I see clear warnings of Dishes I am allergic too                | MVP    |      
 | Lukker  | Update my username and password | I can change my login information if wanted      | Stretch    |
 | Lukker  | Search for potlukks by tags | Find public potlukks I might be interested in        | Stretch    |
-| Lukker  | say I am bringing a dish to the potlukk | other guests do not bring the same thing | MVP     |
-| Lukker  | edir or remvoe the dishes I am brining | guests avoid duplicates                   | MVP     |
+| Lukker  | Say I am bringing a dish to the potlukk | Other guests do not bring the same thing | MVP     |
+| Lukker  | Edit or remove the dishes I am brining | Guests avoid duplicates                   | MVP     |
 | Host    | Create dishes for people to bring if possible| I can give suggestions to guests    | Stretch     |
-| Host    | Edit the details of my Potlukk | I can keep everything up to dato                  | MVP    |
+| Host    | Edit the details of my Potlukk | I can keep everything up to date                  | MVP    |
 | Host    | Create tags for my Potlukk | People can find my public potlukks                    | Stretch    |
-| Host    | Edit the time or cancel my Potlukk | atendees do not show up incorrectly           | MVP   |
+| Host    | Edit the time or cancel my Potlukk | Attendees do not show up incorrectly           | MVP   |
 
 
 ## Fetatures by page
