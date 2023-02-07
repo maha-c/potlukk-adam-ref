@@ -47,9 +47,9 @@ def swap_potlukk_dishes(input: DishesSwapInput) -> Potlukk | None:
 def send_invite(input: InvitationSendInput) -> Potlukk | None:
     if potluk := potlukks.get(input.potlukkId):
         for invite in potluk.invitations:
-            if invite.potlukker.userId:
+            if invite.potlukker.userId == input.potlukkerId:
                 raise Exception("Person already invited")
-        if lukker := get_details_by_user_id(input.pottlukkerId):
+        if lukker := get_details_by_user_id(input.potlukkerId):
             potluk.invitations.append(Invitation(status=InvitationStatus.PENDING, potlukker=lukker))
             return potluk
 
